@@ -1,0 +1,26 @@
+h1 {
+
+}
+.box {
+    background: green;
+    margin: 15px;
+    height: 80px;
+    width: 80px;
+    padding: 15px;
+    color: white;
+    font-size: 20;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 800px;
+}
+
+.box-1 {
+    flex-grow: 1;
+}
+.box-2 {
+    flex-grow: 5;
+}
