@@ -1,8 +1,79 @@
-h1 {
+/* CSS Style sheet for my Personal Bio */
 
+* {
+    box-sizing: border-box;
 }
+
+/* Head */
+header {
+    color: white;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+/* Nav Bar style begins */
+
+nav {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 960px;
+    align-self: center;
+    border-bottom: #666666;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #777777;
+    float: right;
+    text-align: right;
+  }
+  
+  li {
+    float: left;
+    margin: 15px;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px;
+    color: #777777;
+    text-decoration: none;
+  }
+/* Nav Bar style ends */
+
+/* Body */
+h2  {
+    color: #4aaaa5;
+}
+
+body {
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: "./images/herringbone.png";
+    width: 960px;
+}
+
+p {
+    background: #ffffff;
+}
+
 .box {
-    background: green;
+    background: #4aaaa5;
     margin: 15px;
     height: 80px;
     width: 80px;
@@ -12,15 +83,32 @@ h1 {
 }
 
 .container {
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     height: 800px;
+    box-sizing: border-box;
+    width: 960px;
 }
 
-.box-1 {
-    flex-grow: 1;
+
+footer {
+    background: #666666;
+    padding: 20px;
+    clear: both;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    border-top: #4aaaa5;
+    border-style: solid;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    z-index: 2;
 }
-.box-2 {
-    flex-grow: 5;
+
+/* Image CSS */
+.bio-image {
+    float: left;
+    margin: 10px;
 }
